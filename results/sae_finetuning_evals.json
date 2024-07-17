@@ -1,0 +1,32 @@
+[
+  {
+    "model_name": "mistral-7B-instruct",
+    "L0": 86.8041763305664,
+    "ce_rec": 0.9875035285949707,
+    "clean_loss": 1.7047595977783203,
+    "sae_recons_loss": 1.8126335144042969,
+    "zero_abl_loss": 10.373491287231445,
+    "Explained Variance": 0.6543827056884766,
+    "MSE": 1189.506103515625,
+    "ignore_outliers": false,
+    "eval_tokens": 98304,
+    "MSE/L0/Explained Variance batches": 10,
+    "Outlier threshold": 100000,
+    "artifact_path": "ckkissane/mistral-7B-base-finetuning/sae_mistral-7b_blocks.16.hook_resid_pre_131072:v1"
+  },
+  {
+    "model_name": "qwen1.5-0.5B-chat",
+    "L0": 28.874853134155273,
+    "ce_rec": 0.960631251335144,
+    "clean_loss": 2.999432325363159,
+    "sae_recons_loss": 3.389068126678467,
+    "zero_abl_loss": 12.997271537780762,
+    "Explained Variance": 0.7426561713218689,
+    "MSE": 215.35289001464844,
+    "ignore_outliers": false,
+    "eval_tokens": 98304,
+    "MSE/L0/Explained Variance batches": 10,
+    "Outlier threshold": 100000,
+    "artifact_path": "ckkissane/qwen-500M-base-finetuning/sae_qwen1.5-0.5b_blocks.13.hook_resid_pre_32768:v6"
+  }
+]
