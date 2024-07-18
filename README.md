@@ -1,6 +1,6 @@
 Code to reproduce key results accompanying "SAEs (usually) Transfer Between Base and Chat Models".
 
-* [Blog post](TODO)
+* [Blog post](https://www.alignmentforum.org/posts/fmwk6qxrpW8d4jvbd/saes-usually-transfer-between-base-and-chat-models)
 
 ## Contents
 
@@ -24,5 +24,5 @@ We build on code from [SAELens](https://github.com/jbloomAus/SAELens) and [Ardit
 
 We open source SAEs used in this work:
 
-* [Mistral 7B base](https://wandb.ai/ckkissane/mistral-7B-base/artifacts/model/sae_mistral-7b_blocks.16.hook_resid_pre_131072/v8), [Mistral 7B chat](https://wandb.ai/ckkissane/mistral-7B-chat/artifacts/model/sae_mistral-7b-instruct_blocks.16.hook_resid_pre_131072/v8), [Mistral 7B fine-tuned](https://wandb.ai/ckkissane/mistral-7B-base-finetuning/artifacts/model/sae_mistral-7b_blocks.16.hook_resid_pre_131072/v1)
-* [Qwen 1.5 0.5B base](https://wandb.ai/ckkissane/qwen-500M-base/artifacts/model/sae_qwen1.5-0.5b_blocks.13.hook_resid_pre_32768/v0), [Qwen 1.5 0.5B chat](https://wandb.ai/ckkissane/qwen-500M-chat/artifacts/model/sae_qwen1.5-0.5b-chat_blocks.13.hook_resid_pre_32768/v0), [Qwen 1.5 0.5B fine-tuned](https://wandb.ai/ckkissane/qwen-500M-base-finetuning/artifacts/model/sae_qwen1.5-0.5b_blocks.13.hook_resid_pre_32768/v6)
+* [Mistral 7B base](https://wandb.ai/ckkissane/mistral-7B-base/artifacts/model/sae_mistral-7b_blocks.16.hook_resid_pre_131072/v8/files), [Mistral 7B chat](https://wandb.ai/ckkissane/mistral-7B-chat/artifacts/model/sae_mistral-7b-instruct_blocks.16.hook_resid_pre_131072/v8/files), [Mistral 7B fine-tuned](https://wandb.ai/ckkissane/mistral-7B-base-finetuning/artifacts/model/sae_mistral-7b_blocks.16.hook_resid_pre_131072/v1/files)
+* [Qwen 1.5 0.5B base](https://wandb.ai/ckkissane/qwen-500M-base/artifacts/model/sae_qwen1.5-0.5b_blocks.13.hook_resid_pre_32768/v0/files), [Qwen 1.5 0.5B chat](https://wandb.ai/ckkissane/qwen-500M-chat/artifacts/model/sae_qwen1.5-0.5b-chat_blocks.13.hook_resid_pre_32768/v0/files), [Qwen 1.5 0.5B fine-tuned](https://wandb.ai/ckkissane/qwen-500M-base-finetuning/artifacts/model/sae_qwen1.5-0.5b_blocks.13.hook_resid_pre_32768/v6/files)
